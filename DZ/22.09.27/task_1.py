@@ -7,7 +7,7 @@
 
 def sum_numbers(num):
 
-    while num % 10 > 0.0000000001:
+    while num % 1 > 0:
         num *= 10
 
     result = 0

@@ -37,7 +37,7 @@ def output_array_2x(array):  # выводит в консоль двумерны
     for i in array:
         for j in i:
             if j < 10:
-                print(j, end="  ")
+                print(f'{j:2}', end=' ')
             else:
                 print(j, end=" ")
         print()
