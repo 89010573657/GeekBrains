@@ -11,11 +11,10 @@ def sum_numbers(num):
         num *= 10
 
     result = 0
-    num = int(num)
     while num > 0:
         result += num % 10
         num = num // 10
-    return result
+    return int(result)
 
 
 print(sum_numbers(10341.3))
